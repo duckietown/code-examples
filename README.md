@@ -24,4 +24,4 @@ A detailed list of the examples stored in this repository follows,
 
 This example shows how to subscribe to a continuous stream of camera frames in ROS.
 
-* **NOTE:** This example requires a window to be opened for the live stream to be shown. Some newer versions of MacOS will not support this.
+* **NOTE:** This example requires a window to be opened for the live stream to be shown. Newer versions of MacOS do not support this.
