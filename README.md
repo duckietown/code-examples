@@ -15,7 +15,7 @@ A detailed list of the examples stored in this repository follows,
 
 ### ROS - Sensor - Camera (Make it see)
 
-> **Location:** `./ros-sensor-camera` \
+> **Location:** [`./ros-sensor-camera/`](./ros-sensor-camera/) \
 **Framework:** `ROS1` \
 **Supported Robots:** Any \
 **Supported OSs:** Linux, MacOS* \
