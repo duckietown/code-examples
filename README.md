@@ -14,7 +14,7 @@ A detailed list of the examples stored in this repository follows,
 
 ---
 
-### ROS - Sensor - Camera - (Make it see)
+### ROS - Sensor - Camera - (:speech_balloon: Make it see)
 
 This example shows how to subscribe to a continuous stream of camera frames via ROS.
 
@@ -31,7 +31,7 @@ This example shows how to subscribe to a continuous stream of camera frames via 
 ---
 
 
-### ROS - Actuator - LEDs - (Make it blink)
+### ROS - Actuator - LEDs - (:speech_balloon: Make it blink)
 
 This example shows how to control a vehicle's lights via ROS.
 
@@ -46,7 +46,23 @@ This example shows how to control a vehicle's lights via ROS.
 ---
 
 
-### ROS - Actuator - Wheels - (Make it move)
+### ROS - Actuator - Display (:speech_balloon: Make it paint)
+
+This example shows how to display a message on a robot's LCD screen in ROS.
+
+> **Location:** [`./ros-actuator-display/`](./ros-actuator-display/) \
+**Framework:** `ROS1` \
+**Supported Robots:** Any \
+**Supported OSs:** Linux \
+---------------- \
+![badge](https://shields.io/badge/status-ready-green?&style=plastic)
+
+
+
+---
+
+
+### ROS - Actuator - Wheels - (:speech_balloon: Make it move)
 
 This example shows how to control a vehicle's motors via ROS.
 
@@ -114,20 +130,5 @@ This example shows how to read a robot's wheel encoder data in ROS.
 **Framework:** `ROS1` \
 **Supported Robots:** Any \
 **Supported OSs:** Linux, MacOS \
----------------- \
-![badge](https://shields.io/badge/status-TODO-red?&style=plastic)
-
-
----
-
-
-### ROS - Actuator - Display
-
-This example shows how to display a message on a robot's LCD screen in ROS.
-
-> **Location:** [`./ros-actuator-display/`](./ros-actuator-display/) \
-**Framework:** `ROS1` \
-**Supported Robots:** Any \
-**Supported OSs:** Linux \
 ---------------- \
 ![badge](https://shields.io/badge/status-TODO-red?&style=plastic)
