@@ -1,5 +1,5 @@
 # parameters
-ARG REPO_NAME="example-ros-sensor-camera"
+ARG REPO_NAME="ros-sensor-camera"
 ARG DESCRIPTION="(empty)"
 ARG MAINTAINER="Duckietown Examples (examples@duckietown.com)"
 # pick an icon from: https://fontawesome.com/v4.7.0/icons/
