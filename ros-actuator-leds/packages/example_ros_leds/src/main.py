@@ -47,7 +47,7 @@ def blinker():
     robot_name: str = get_robot_name()
     # initialize node
     rospy.init_node('blinker', anonymous=True)
-    # setup camera listener
+    # setup publisher
     publisher = rospy.Publisher(
         f"/{robot_name}/led_driver_node/led_pattern",
         LEDPattern,
