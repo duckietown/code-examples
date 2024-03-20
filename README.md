@@ -116,7 +116,7 @@ This example shows how to detect the user input from a robot's power button in R
 **Supported Robots:** Any \
 **Supported OSs:** Linux, MacOS \
 ---------------- \
-![badge](https://shields.io/badge/status-TODO-red?&style=plastic)
+![badge](https://shields.io/badge/status-ready-green?&style=plastic)
 
 
 ---
