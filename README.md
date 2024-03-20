@@ -86,7 +86,7 @@ This example shows how to measure the distance to the closest object using a rob
 **Supported Robots:** Any \
 **Supported OSs:** Linux, MacOS \
 ---------------- \
-![badge](https://shields.io/badge/status-TODO-red?&style=plastic)
+![badge](https://shields.io/badge/status-ready-green?&style=plastic)
 
 
 ---
