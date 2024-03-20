@@ -1,5 +1,7 @@
 # Example: ROS - Actuator - Display
 
+This example shows how to display a message on a robot's LCD screen in ROS.
+
 ## 1. Build
 
 Build this project using the command,

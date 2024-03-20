@@ -1,5 +1,7 @@
 # Example: ROS - Sensor - Camera
 
+This example shows how to subscribe to a continuous stream of camera frames via ROS.
+
 ## 1. Build
 
 Build this project using the command,

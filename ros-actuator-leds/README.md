@@ -1,5 +1,7 @@
 # Example: ROS - Actuator - LEDs
 
+This example shows how to control a vehicle's lights via ROS.
+
 ## 1. Build
 
 Build this project using the command,
