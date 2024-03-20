@@ -71,7 +71,7 @@ This example shows how to control a vehicle's motors via ROS.
 **Supported Robots:** Any \
 **Supported OSs:** Linux \
 ---------------- \
-![badge](https://shields.io/badge/status-TODO-red?&style=plastic)
+![badge](https://shields.io/badge/status-ready-green?&style=plastic)
 
 
 ---
