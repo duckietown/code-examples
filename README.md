@@ -1,4 +1,4 @@
-# DTProject - Examples
+# Code Examples
 
 This repository is a collection of simple DTProjects that you can use as a starting point for the development of more complex behaviors for your Duckietown robots. For further information about what a DTProject is and how to use it, we suggest you follow 
 the [official tutorial](https://docs.duckietown.com/daffy/devmanual-software/beginner/dtproject/index.html).
