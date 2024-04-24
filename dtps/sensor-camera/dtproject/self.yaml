@@ -1,0 +1,8 @@
+name: "dtps-example-sensor-camera"
+maintainer:
+    name: "Duckietown Examples"
+    email: "examples@duckietown.com"
+description: "(empty)"
+version: 0.0.0
+# pick an icon from: https://fontawesome.com/v4.7.0/icons/
+icon: square
