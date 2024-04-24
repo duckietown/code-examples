@@ -79,11 +79,6 @@ RUN dt-pip3-install "${PROJECT_PATH}/dependencies-py3.*"
 # copy the source code
 COPY ./packages "${PROJECT_PATH}/packages"
 
-# build packages
-RUN . /opt/ros/${ROS_DISTRO}/setup.sh && \
-  catkin build \
-    --workspace ${CATKIN_WS_DIR}/
-
 # install launcher scripts
 COPY ./launchers/. "${PROJECT_LAUNCHERS_PATH}/"
 RUN dt-install-launchers "${PROJECT_LAUNCHERS_PATH}"
