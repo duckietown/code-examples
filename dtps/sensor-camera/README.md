@@ -1,6 +1,6 @@
-# Example: ROS - Sensor - Camera
+# Example: DTPS - Sensor - Camera
 
-This example shows how to subscribe to a continuous stream of camera frames via ROS.
+This example shows how to subscribe to a continuous stream of camera frames via DTPS.
 
 ## 1. Build
 
