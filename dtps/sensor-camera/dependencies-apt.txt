@@ -1,1 +1,7 @@
 # LIST YOUR APT PACKAGES HERE
+
+# needed by openCV to open windows
+libgl1
+libsm6
+libxrender1
+libfontconfig1

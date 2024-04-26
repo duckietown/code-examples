@@ -2,8 +2,6 @@
 
 source /environment.sh
 
-# initialize launch file
-dt-launchfile-init
 
 # YOUR CODE BELOW THIS LINE
 # ----------------------------------------------------------------------------
@@ -13,11 +11,9 @@ dt-launchfile-init
 # NOTE: Use `dt-exec COMMAND` to run the main process (blocking process)
 
 # launching app
-dt-exec rosrun example_ros_camera main.py
+exec python3 -m example_dtps_camera.main
 
 
 # ----------------------------------------------------------------------------
 # YOUR CODE ABOVE THIS LINE
 
-# wait for app to end
-dt-launchfile-join
