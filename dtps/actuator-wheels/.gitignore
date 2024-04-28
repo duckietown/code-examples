@@ -1,0 +1,13 @@
+docs/build
+*pyc
+
+# documentation artifacts
+html/*
+!html/HTML_DOCS_WILL_BE_GENERATED_HERE
+
+# libraries
+libraries/*
+!libraries/PLACE_YOUR_PYTHON_LIBRARIES_SUBMODULES_HERE
+
+# otherwise CI thinks index not clean
+*.resolved

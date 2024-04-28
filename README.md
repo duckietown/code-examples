@@ -12,6 +12,8 @@ directory, which is the place where the specific behavior is implemented.
 
 A detailed list of the examples stored in this repository follows,
 
+<br/>
+<br/>
 
 ## ROS1
 
@@ -137,7 +139,8 @@ This example shows how to read a robot's wheel encoder data in ROS1.
 ![badge](https://shields.io/badge/status-untested-red?&style=plastic)
 
 
-
+<br/>
+<br/>
 
 ## DTPS
 
@@ -152,7 +155,7 @@ This example shows how to subscribe to a continuous stream of camera frames via 
 **Supported Robots:** Any \
 **Supported OSs:** Linux, MacOS* \
 ---------------- \
-![badge](https://shields.io/badge/status-todo-red?&style=plastic)
+![badge](https://shields.io/badge/status-ready-green?&style=plastic)
 
 * **NOTE:** This example requires a window to be opened for the live stream to be shown. Newer versions of MacOS do not support this.
 
@@ -200,7 +203,7 @@ This example shows how to control a vehicle's motors via DTPS.
 **Supported Robots:** Any \
 **Supported OSs:** Linux \
 ---------------- \
-![badge](https://shields.io/badge/status-todo-red?&style=plastic)
+![badge](https://shields.io/badge/status-ready-green?&style=plastic)
 
 
 ---
