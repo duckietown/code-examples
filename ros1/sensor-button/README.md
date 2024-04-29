@@ -21,6 +21,6 @@ dts devel run -R [ROBOT_NAME]
 **NOTE:** Make sure to replace `[ROBOT_NAME]` with the name of the robot you are using in the commands above.
 
 
-### Expected Result
+## 3. Expected Result
 
 You should see the type of event detected from the power button printed to the console.

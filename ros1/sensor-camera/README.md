@@ -23,7 +23,7 @@ dts devel run -X -R [ROBOT_NAME]
 **NOTE:** The `-X` flag is used to give the project permissions to open a window to show the camera feed.
 
 
-### Expected Result
+## 3. Expected Result
 
 You should see a window showing the live camera feed of the robot similar to the one below,
 

@@ -21,7 +21,7 @@ dts devel run -R [ROBOT_NAME]
 **NOTE:** Make sure to replace `[ROBOT_NAME]` with the name of the robot you are using in the commands above.
 
 
-### Expected Result
+## 3. Expected Result
 
 You should see the distance to the nearest obstacle in front of the robot printed to the console. When no obstacle
 is detected, the message `"Too-far"` will be printed instead.

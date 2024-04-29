@@ -21,7 +21,7 @@ dts devel run -R [ROBOT_NAME]
 **NOTE:** Make sure to replace `[ROBOT_NAME]` with the name of the robot you are using in the commands above.
 
 
-### Expected Result
+## 3. Expected Result
 
 You should see the number of wheel encoder ticks printed to the console. Try rotating the wheels of the robot to see 
 the number of ticks increase.
