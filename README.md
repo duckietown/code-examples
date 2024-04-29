@@ -26,6 +26,7 @@ This example shows how to subscribe to a continuous stream of camera frames via 
 > **Location:** [`./ros1/sensor-camera/`](./ros1/sensor-camera/) \
 **Framework:** `ROS1` \
 **Supported Robots:** Any \
+**Supported in Simulation:** Yes (virtual robots only) \
 **Supported OSs:** Linux, MacOS* \
 ---------------- \
 ![badge](https://shields.io/badge/status-untested-red?&style=plastic)
@@ -43,6 +44,7 @@ This example shows how to control a vehicle's lights via ROS1.
 > **Location:** [`./ros1/actuator-leds/`](./ros1/actuator-leds/) \
 **Framework:** `ROS1` \
 **Supported Robots:** Any \
+**Supported in Simulation:** Yes (virtual robots only) \
 **Supported OSs:** Linux \
 ---------------- \
 ![badge](https://shields.io/badge/status-untested-red?&style=plastic)
@@ -58,6 +60,7 @@ This example shows how to display a message on a robot's LCD screen in ROS1.
 > **Location:** [`./ros1/actuator-display/`](./ros1/actuator-display/) \
 **Framework:** `ROS1` \
 **Supported Robots:** Any \
+**Supported in Simulation:** Yes (virtual robots only) \
 **Supported OSs:** Linux \
 ---------------- \
 ![badge](https://shields.io/badge/status-untested-red?&style=plastic)
@@ -74,6 +77,7 @@ This example shows how to control a vehicle's motors via ROS1.
 > **Location:** [`./ros1/actuator-wheels/`](./ros1/actuator-wheels/) \
 **Framework:** `ROS1` \
 **Supported Robots:** Any \
+**Supported in Simulation:** Yes (virtual robots only) \
 **Supported OSs:** Linux \
 ---------------- \
 ![badge](https://shields.io/badge/status-untested-red?&style=plastic)
@@ -89,6 +93,7 @@ This example shows how to measure the distance to the closest object using a rob
 > **Location:** [`./ros1/sensor-tof/`](./ros1/sensor-tof/) \
 **Framework:** `ROS1` \
 **Supported Robots:** Any \
+**Supported in Simulation:** Yes (virtual robots only) \
 **Supported OSs:** Linux, MacOS \
 ---------------- \
 ![badge](https://shields.io/badge/status-untested-red?&style=plastic)
@@ -104,6 +109,7 @@ This example shows how to read a robot's IMU data in ROS1.
 > **Location:** [`./ros1/sensor-imu/`](./ros1/sensor-imu/) \
 **Framework:** `ROS1` \
 **Supported Robots:** Any \
+**Supported in Simulation:** Yes (virtual robots only) \
 **Supported OSs:** Linux, MacOS \
 ---------------- \
 ![badge](https://shields.io/badge/status-untested-red?&style=plastic)
@@ -119,6 +125,7 @@ This example shows how to detect the user input from a robot's power button in R
 > **Location:** [`./ros1/sensor-button/`](./ros1/sensor-button/) \
 **Framework:** `ROS1` \
 **Supported Robots:** Any \
+**Supported in Simulation:** Yes (virtual robots only) \
 **Supported OSs:** Linux, MacOS \
 ---------------- \
 ![badge](https://shields.io/badge/status-untested-red?&style=plastic)
@@ -134,6 +141,7 @@ This example shows how to read a robot's wheel encoder data in ROS1.
 > **Location:** [`./ros1/sensor-wheel-encoder/`](./ros1/sensor-wheel-encoder/) \
 **Framework:** `ROS1` \
 **Supported Robots:** Any \
+**Supported in Simulation:** Yes (virtual robots only) \
 **Supported OSs:** Linux, MacOS \
 ---------------- \
 ![badge](https://shields.io/badge/status-untested-red?&style=plastic)
@@ -153,6 +161,7 @@ This example shows how to subscribe to a continuous stream of camera frames via 
 > **Location:** [`./dtps/sensor-camera/`](./dtps/sensor-camera/) \
 **Framework:** `DTPS` \
 **Supported Robots:** Any \
+**Supported in Simulation:** Yes \
 **Supported OSs:** Linux, MacOS* \
 ---------------- \
 ![badge](https://shields.io/badge/status-ready-green?&style=plastic)
@@ -170,7 +179,8 @@ This example shows how to control a vehicle's lights via DTPS.
 > **Location:** [`./dtps/actuator-leds/`](./dtps/actuator-leds/) \
 **Framework:** `DTPS` \
 **Supported Robots:** Any \
-**Supported OSs:** Linux \
+**Supported in Simulation:** Yes \
+**Supported OSs:** Linux, MacOS \
 ---------------- \
 ![badge](https://shields.io/badge/status-todo-red?&style=plastic)
 
@@ -185,7 +195,8 @@ This example shows how to display a message on a robot's LCD screen in DTPS.
 > **Location:** [`./dtps/actuator-display/`](./dtps/actuator-display/) \
 **Framework:** `DTPS` \
 **Supported Robots:** Any \
-**Supported OSs:** Linux \
+**Supported in Simulation:** No \
+**Supported OSs:** Linux, MacOS \
 ---------------- \
 ![badge](https://shields.io/badge/status-todo-red?&style=plastic)
 
@@ -201,7 +212,8 @@ This example shows how to control a vehicle's motors via DTPS.
 > **Location:** [`./dtps/actuator-wheels/`](./dtps/actuator-wheels/) \
 **Framework:** `DTPS` \
 **Supported Robots:** Any \
-**Supported OSs:** Linux \
+**Supported in Simulation:** Yes \
+**Supported OSs:** Linux, MacOS \
 ---------------- \
 ![badge](https://shields.io/badge/status-ready-green?&style=plastic)
 
@@ -216,9 +228,10 @@ This example shows how to measure the distance to the closest object using a rob
 > **Location:** [`./dtps/sensor-tof/`](./dtps/sensor-tof/) \
 **Framework:** `DTPS` \
 **Supported Robots:** Any \
+**Supported in Simulation:** Yes \
 **Supported OSs:** Linux, MacOS \
 ---------------- \
-![badge](https://shields.io/badge/status-todo-red?&style=plastic)
+![badge](https://shields.io/badge/status-ready-green?&style=plastic)
 
 
 ---
@@ -231,6 +244,7 @@ This example shows how to read a robot's IMU data in DTPS.
 > **Location:** [`./dtps/sensor-imu/`](./dtps/sensor-imu/) \
 **Framework:** `DTPS` \
 **Supported Robots:** Any \
+**Supported in Simulation:** No \
 **Supported OSs:** Linux, MacOS \
 ---------------- \
 ![badge](https://shields.io/badge/status-todo-red?&style=plastic)
@@ -246,6 +260,7 @@ This example shows how to detect the user input from a robot's power button in D
 > **Location:** [`./dtps/sensor-button/`](./dtps/sensor-button/) \
 **Framework:** `DTPS` \
 **Supported Robots:** Any \
+**Supported in Simulation:** No \
 **Supported OSs:** Linux, MacOS \
 ---------------- \
 ![badge](https://shields.io/badge/status-todo-red?&style=plastic)
@@ -261,6 +276,7 @@ This example shows how to read a robot's wheel encoder data in DTPS.
 > **Location:** [`./dtps/sensor-wheel-encoder/`](./dtps/sensor-wheel-encoder/) \
 **Framework:** `DTPS` \
 **Supported Robots:** Any \
+**Supported in Simulation:** Yes \
 **Supported OSs:** Linux, MacOS \
 ---------------- \
-![badge](https://shields.io/badge/status-todo-red?&style=plastic)
+![badge](https://shields.io/badge/status-ready-green?&style=plastic)
