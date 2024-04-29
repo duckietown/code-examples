@@ -3,9 +3,7 @@
 import asyncio
 import os
 
-import cv2
-from duckietown_messages.sensors import CompressedImage
-from turbojpeg import TurboJPEG
+from duckietown_messages.standard import Integer
 
 from dt_robot_utils import get_robot_name
 from dtps import DTPSContext, context
@@ -16,23 +14,12 @@ host: str = os.environ.get("HOST", f"{get_robot_name()}.local")
 port: str = os.environ.get("PORT", "11511")
 
 # constants
-CAMERA_NAME: str = "front_center"
-
-# JPEG decoder
-JPEG = TurboJPEG()
-
-# cv2 window
-window = "example-sensor-camera"
-cv2.namedWindow(window, cv2.WINDOW_AUTOSIZE)
+SENSOR_NAME: str = "left"
 
 
 async def callback(rd: RawData):
-    # global frame
-    jpeg: CompressedImage = CompressedImage.from_rawdata(rd)
-    frame = JPEG.decode(jpeg.data)
-    # display frame
-    cv2.imshow(window, frame)
-    cv2.waitKey(1)
+    msg: Integer = Integer.from_rawdata(rd)
+    print(f"#ticks: {msg.data}")
 
 
 async def main():
@@ -42,9 +29,9 @@ async def main():
     # initialize node
     print(f"Connecting to {url}...")
     cxt: DTPSContext = await context("robot", urls=[url])
-    # setup camera listener
-    camera: DTPSContext = cxt / robot_name / "sensor" / "camera" / CAMERA_NAME / "jpeg"
-    await camera.subscribe(callback)
+    # setup wheel encoder listener
+    wheel_encoder: DTPSContext = cxt / robot_name / "sensor" / "wheel_encoder" / SENSOR_NAME / "ticks"
+    await wheel_encoder.subscribe(callback)
     # keep the node alive
     try:
         while True:

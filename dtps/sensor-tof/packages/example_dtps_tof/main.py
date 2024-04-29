@@ -3,9 +3,7 @@
 import asyncio
 import os
 
-import cv2
-from duckietown_messages.sensors import CompressedImage
-from turbojpeg import TurboJPEG
+from duckietown_messages.sensors import Range
 
 from dt_robot_utils import get_robot_name
 from dtps import DTPSContext, context
@@ -16,23 +14,13 @@ host: str = os.environ.get("HOST", f"{get_robot_name()}.local")
 port: str = os.environ.get("PORT", "11511")
 
 # constants
-CAMERA_NAME: str = "front_center"
-
-# JPEG decoder
-JPEG = TurboJPEG()
-
-# cv2 window
-window = "example-sensor-camera"
-cv2.namedWindow(window, cv2.WINDOW_AUTOSIZE)
+SENSOR_NAME: str = "front_center"
 
 
 async def callback(rd: RawData):
-    # global frame
-    jpeg: CompressedImage = CompressedImage.from_rawdata(rd)
-    frame = JPEG.decode(jpeg.data)
-    # display frame
-    cv2.imshow(window, frame)
-    cv2.waitKey(1)
+    msg: Range = Range.from_rawdata(rd)
+    distance: str = f"{msg.data:.3f}m" if msg.data else "Too-far"
+    print(f"Range: {distance}")
 
 
 async def main():
@@ -42,9 +30,9 @@ async def main():
     # initialize node
     print(f"Connecting to {url}...")
     cxt: DTPSContext = await context("robot", urls=[url])
-    # setup camera listener
-    camera: DTPSContext = cxt / robot_name / "sensor" / "camera" / CAMERA_NAME / "jpeg"
-    await camera.subscribe(callback)
+    # setup tof listener
+    tof: DTPSContext = cxt / robot_name / "sensor" / "time_of_flight" / SENSOR_NAME / "range"
+    await tof.subscribe(callback)
     # keep the node alive
     try:
         while True:

@@ -23,7 +23,19 @@ dts devel run -X -R [ROBOT_NAME]
 **NOTE:** The `-X` flag is used to give the project permissions to open a window to show the camera feed.
 
 
-### Expected Result
+### 2.1 Run against the Duckiematrix
+
+If you want this example to connect to an instance of the Duckiematrix instead of a physical robot, find the
+port number the instance of the Duckiematrix you are running is using as shown in the image below and then add
+`-- -e PORT=<PORT_NUMBER>` to the `dts devel run` command above
+(for example, in the example in the image below, we would add `-- -e PORT=40295`).
+
+<p align="center" style="padding: 12px 40px 0 40px; border-left: 5px solid grey">
+  <img src="./docs/figures/dtps-server-port.png" alt="Find the duckiematrix DTPS port to use"/>
+</p>
+
+
+## 3. Expected Result
 
 You should see a window showing the live camera feed of the robot similar to the one below,
 

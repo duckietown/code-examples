@@ -1,6 +1,6 @@
-# Example: DTPS - Actuator - Wheels
+# Example: DTPS - Sensor - Time-of-Flight
 
-This example shows how to control a vehicle's motors via DTPS.
+This example shows how to measure the distance to the closest object using a robot's time-of-flight sensor in DTPS.
 
 ## 1. Build
 
@@ -35,4 +35,4 @@ port number the instance of the Duckiematrix you are running is using as shown i
 
 ## 3. Expected Result
 
-The motors should spin forward for 5 seconds.
+You should see a string being printed on the console showing the live reading (distance) from the time-of-flight sensor.
